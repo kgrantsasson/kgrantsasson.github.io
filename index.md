@@ -8,4 +8,3 @@ The team’s goals seem reasonable, well-informed and relatively easily achievab
 [Link] (https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W14/179/2019/isprs-archives-XLII-4-W14-179-2019.pdf)
 
 
-[My First QGIS Model] (qgisModel.md)
