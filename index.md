@@ -6,3 +6,6 @@ INSUBRIAPARKS proposes the implementation of a standardized IT infrastructure to
 The team’s goals seem reasonable, well-informed and relatively easily achievable. I wish the authors had gone into greater depth about how they are going to source information from the visitors and whether they anticipate having to teach these visitors how to use the platform. 
 
 [Link] (https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W14/179/2019/isprs-archives-XLII-4-W14-179-2019.pdf)
+
+
+[My First QGIS Model] (qgisModel.md)
