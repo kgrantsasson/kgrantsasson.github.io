@@ -6,5 +6,7 @@ In the first lab we created a processing model to measure the distance and direc
 
 [Scatterplot of distance from Chicago CBD vs Median Gross Rent](Scatter_Medgrossre.html) 
 
+[PolarPlot of direction from Chicago CBD vs Median Gross Rent](PolarPlot_direction_Medgrossre.html)
+
 [back to Main Page](index.md)
 
