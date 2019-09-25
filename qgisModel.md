@@ -5,3 +5,5 @@ In the first lab we created a processing model to measure the distance and direc
 [Model](distance_from_point.model_9_12.model3) 
 
 [back to Main Page](index.md)
+
+[Scatterplot of distance from Chicago CBD vs Median Gross Rent](Scatter_Medgrossre.html) 
