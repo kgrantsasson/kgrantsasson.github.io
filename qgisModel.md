@@ -6,7 +6,7 @@ In the class tutorial, we focused on Chicago and compared the distance and direc
 For the purposes of this assignment I chose to upload the scatter and polar plots for the chicago data. 
 Below are three metrics: Distance from the CBD, Direction from the CBD, and Median Gross Rent by census tract.
 
-![Distance from CBD(distance.PNG)
+![Distance from CBD](distance.PNG)
 
 ![Direction from CBD](direction.PNG) 
 
