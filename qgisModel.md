@@ -12,7 +12,10 @@ Below are three metrics: Distance from the CBD, Direction from the CBD, and Medi
 
 ![Median Gross Rent](MeGrossRent.PNG) 
 
-[Model](distance_from_point.model_9_12.model3) 
+Below is a screengrab of my model
+![Model](modelpic.PNG) 
+
+[Model]
 
 [Scatterplot of distance from Chicago CBD vs Median Gross Rent](Scatter_Medgrossre.html) 
 
