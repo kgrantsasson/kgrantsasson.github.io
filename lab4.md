@@ -20,5 +20,5 @@ Here is the output of subtracting ASTER from SRTM. Where the pixels are more blu
 
 Below is the output for the differences in the ASTER and SRTM Digital Elevation Models.
 
-![Difference in DEMS](differencesDEM).PNG
+![Difference in DEMS](differenceDEM).PNG
 
