@@ -25,3 +25,8 @@ Below is the output for the differences in the ASTER and SRTM Digital Elevation 
 [Here](ASTERDEM.bat) is my ASTER batch process.
 [Here](SRTMDEMproj.bat) is my SRTM batch process. 
 
+Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC
+
+NASA JPL. NASA Shuttle Radar Topography Mission Global 1 arc second. 2013, distributed by NASA EOSDIS Land Processes DAAC
+
+Ran using SAGA version 6.2
