@@ -21,9 +21,9 @@ Below is a screengrab of my model
 
 [Model]
 
-[Scatterplot of distance from Chicago CBD vs Median Gross Rent](Scatter_Medgrossre.html) 
+This [scatterplot](Scatter_Medgrossre.html)  demonstrates the distance from Chicago's Central Business Distract vs Median Gross Rent.
 
-[PolarPlot of direction from Chicago CBD vs Median Gross Rent](PolarPlot_direction_Medgrossre.html)
+This [polar plot](PolarPlot_direction_Medgrossre.html) demonstrates the direction from Chicago CBD vs Median Gross Rent.
 
 [back to Main Page](index.md)
 
