@@ -1,4 +1,4 @@
-[National Heritage Magagement blog post](National Heritage Management blog response.md)
+[Ozoli et al. Review](Oxoli et al Review.md)
 
 [My First QGIS Model](qgisModel.md)
 
