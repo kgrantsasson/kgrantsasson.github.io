@@ -25,6 +25,8 @@ This [scatterplot](Scatter_Medgrossre.html)  demonstrates the distance from Chic
 
 This [polar plot](PolarPlot_direction_Medgrossre.html) demonstrates the direction from Chicago CBD vs Median Gross Rent.
 
+[Click Here](chicago.gpkg) to access the data I used for this lab.
+
 [back to Main Page](index.md)
 
 References
