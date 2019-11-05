@@ -1,4 +1,4 @@
-[Ozoli et al. Review](Oxoli et al Review.md)
+[Oxoli et al. Review](Oxoli et al Review.md)
 
 [My First QGIS Model](qgisModel.md)
 
