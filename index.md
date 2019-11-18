@@ -7,3 +7,5 @@
 [My Hydromodel in shell batch process](lab4.md)
 
 [Flood risk in Dar es Salaam](darflood.md) 
+
+[Review of Widener and Li, 2014](Twitterdatablog.md) 
