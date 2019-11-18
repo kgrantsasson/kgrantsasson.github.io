@@ -1,5 +1,5 @@
 **Review of "Using Geolocated Twitter Data to Monitor the Prevelance of Healthy and Unhealthy Food Preferences across the US"
-by Widener and Li. 
+by Widener and Li.**
 
 This study uses social media data retrieval and sentiment analyses of geolocated tweets to explore the prevelance of healthy
 and unhealthy eating across the US. The authors cross-referenced these results with the USDA's list of food deserts to determine
