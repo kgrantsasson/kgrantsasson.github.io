@@ -1,4 +1,4 @@
-Review of "Using Geolocated Twitter Data to Monitor the Prevelance of Healthy and Unhealthy Food Preferences across the US"
+**Review of "Using Geolocated Twitter Data to Monitor the Prevelance of Healthy and Unhealthy Food Preferences across the US"
 by Widener and Li. 
 
 This study uses social media data retrieval and sentiment analyses of geolocated tweets to explore the prevelance of healthy
@@ -48,4 +48,4 @@ I imagine that the study can be replicated to analyze different kinds of sentime
 and replacing the healhty/unhealthy food binary with another. If the authors had supplied their list of positive/negative
 opinion words these could be also used to replicate the study. 
 
-Check out the study [here]
+Check out the study [here](WidenerandLi.PDF) 
