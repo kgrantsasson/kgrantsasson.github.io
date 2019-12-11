@@ -32,19 +32,19 @@ One of the goals of this lab was to assess and compare the levels of error and u
 
 Here is the NUM map for SRTM:
 
-![SRTMNUM](SRTMNUM.PNG) 
+![SRTMNUM](SRTMNUM.png) 
 
 The grey space demonstrates that the data for that site was collected by SRTM. 
 
 Here is the NUM map for ASTER:
 
-![SRTMNUM](ASTERNUM.PNG) 
+![SRTMNUM](ASTERNUM.png) 
 
 The blue space demonstrates that the data for that site was collected by ASTER. 
 
 After running the number files, I subtracted the ASTER DEM from the SRTM DEM in order to assess inconsistencies between the two data sources and to determine in which particular regions these inconsistencies lay. 
 
-![Difference in DEMS](differenceDEM).PNG
+![Difference in DEMS](differenceDEM.PNG)
 
 Where the pixels are more blue or more red, there is more inconsistancy between the two data sources. The areas that are whiter demonstrate more agreement and therefore cerainty. As you can see by comparing the following two images with the hillshade, the areas of greater uncertainty are in the higher elevations. There is a area of marked uncertainty at the lake on the base of the mountain. This may be because it is very hard for ASTER and SRTM to determine direction of flow or elevation on the lake's surface.
 
