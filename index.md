@@ -9,3 +9,7 @@
 [Flood risk in Dar es Salaam](darflood.md) 
 
 [Review of Widener and Li, 2014](Twitterdatablog.md) 
+
+[Reproducibility Lab: Vulnerability in Malaxi](Malawi.md) 
+
+[Tweet Patterns During Hurricane Dorian](twitter.md) 
