@@ -57,6 +57,24 @@ Note that I used the weights (0.20, 0.40) that Malcomb et al. used in their risk
 
 Below is Malcomb et al.'s final vulnerability map followed by my own. 
 
+![Malcombvulnerability](malcombvulnerability.PNG)
 
+![Myvulnerability](myvulnerability.PNG)
 
+### Discussion
 
+As you can see, my final result differs significantly from that of Malcomb et al. In general, my map demonstrates higher vulnerability, particularly in the North region of the country. It should be said that my analysis only constitutes 80% of Malcomb et al.'s analysis because we were unable to access the FewsNET 2005 sensitivity data. On one had, that lack of accessibility is a major and glaring barrier to reproducibility. On the other hand, the addition of that data could result in more similar final products. Accessing data is a common issue when attempting to reproduce a study. Often, especially with studies that deal with vulnerability, this data is under privacy protection. 
+
+The lack of accessibility of the FewsNET data is just one example of the lack of reproducibility in this study. In terms of accessing other data for the study, we were unsure which layers to use from UNEP and the DHS Surveys so we were forced to use our best judgement. We decided in the end to use the global layer because the Malawi layer was clipped incorrectly. Additionally, the UNEP flood layer was labled incorrectly as population exposure to risk.
+
+One relatively simple step that GIS scientists can take that is already commonplace accross other scientific disciplines is to include error bars. Error bars indicate the level of confidence with which the authors can present their work. While the authors or publishers may feel that being open about their levels of uncertainty delegitimizes their work, I would argue that it allows the reader to place greater faith in the integrity of the process. A discussion of uncertainty is particularly important in this study because the sample size is relatively small, especially after removing the no data and nulls households. The limited sample size begs the question of how representative our results are of household vulnerability in Malawi. 
+
+Another challenge that we faced in reproducing this study was in understanding the authors' methods of data transformation. For example, it is unclear whether Malcomb et al. used raw counts, proportions, or density in their measurements of sick people for households. We made the judgement to use raw counts which most likely significantly impacted our results. 
+
+As I mentioned earlier, Malcomb et al.'s use of quantiles is somewhat impenetrable. Particularly for binary indicators (does or does not have a cellphone). Were we meant to assign "5" for does have a cell phone? Or 1? 
+
+Malcomb et al.'s vulnerability model also poses some important questions when it comes to understanding their methods. The model seems to be driven by the weights the authors assigned to each indicator. They say that the weights were assigned based on the observations, fieldwork, interviews, and literature reviews that they discussed in the paper, but they could have been much more explicit about their reasoning given how critical these descisions were to their final results. This particular issue makes replicating this study for a different location very challenging. If the authors were more explicit about their methodologies for weighting these indicators, perhaps one could perform a similar analysis for other locations. However, the vagueness of their decision-making process makes it very difficult for future researches to determine indicator weights. Furthermore, Malcomb et al. analyzed vulnerability at the scale of Traditional Authorities, which is an administrative level specific to Malawi. This means that even if we were able to replicate the weights and indicators of the Malawi study, the scale for another study would necessarily be different, thus making comparisons between the two locations impossible. 
+
+Works Cited 
+
+Malcomb, D.W., Weaver, E.A., & Krakowka, A. R. (2014). Vulnerability Modeling for sub-Saharan Africa: An Operationalized Approach in Malawi. Applied Geography, 48, 17-30. 
