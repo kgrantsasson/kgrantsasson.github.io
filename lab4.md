@@ -48,9 +48,9 @@ After running the number files, I subtracted the ASTER DEM from the SRTM DEM in 
 
 Where the pixels are more blue or more red, there is more inconsistancy between the two data sources. The areas that are whiter demonstrate more agreement and therefore cerainty. As you can see by comparing the following two images with the hillshade, the areas of greater uncertainty are in the higher elevations. There is a area of marked uncertainty at the lake on the base of the mountain. This may be because it is very hard for ASTER and SRTM to determine direction of flow or elevation on the lake's surface.
 
+## Conclusion
 
-
-
+When looking at mountainous regions with high topographic variation, ASTER appears to be more accurate than SRTM. As you can see in the two visualizations of the NUM files, the SRTM map uses data from ASTER more than visa versa, particularly in mountainous regions. 
 
 
 [Here](ASTERDEM.bat) is my ASTER batch process.
