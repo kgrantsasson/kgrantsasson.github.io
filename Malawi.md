@@ -31,4 +31,9 @@ Check out the SQL I used to perform this analyses [here](vulnerabilitySQL.sql)
 
 In order to reproduce this complicated first step, we first downloaded the DHS survey metadata and collaboratively extracted the variables that Malcom et al. used in their analyses. We then wrote sql to code these variables into quantiles. First, we had to drop the no data and null values. We had to determine whether 1 or 5 would be the high value depending on the nature of the variable. This proved to be complicated when we were dealing with a binary variable such as cell phone ownership. Below is my map of household resilience followed by that of Malcolm, et al. 
 
+![MalcolmTA](malcolmTA.PNG)
+
+![MyTA](adaptivecapacity.png) 
+
+
 
