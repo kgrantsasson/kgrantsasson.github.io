@@ -10,6 +10,6 @@
 
 [Review of Widener and Li, 2014](Twitterdatablog.md) 
 
-[Reproducibility Lab: Vulnerability in Malaxi](Malawi.md) 
+[Reproducibility Lab: Vulnerability in Malawi](Malawi.md) 
 
 [Tweet Patterns During Hurricane Dorian](twitter.md) 
