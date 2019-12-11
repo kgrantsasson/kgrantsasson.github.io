@@ -6,9 +6,11 @@ This week, we expanded our work in lab 3 by using a cammand prompt batch process
 
 ## Data Acquisition
 
-We accessed DEM and NUM files from Earth Data. I downloaded the SO4E037 AND S03EO37 tiles which extend north and south of Mt. Kilamanjaro. The ASTER data is from the US and Japan Science Teams and the SRTM data is from NASA. We used a [python script]
+We accessed DEM and NUM files from Earth Data. I downloaded the SO4E037 AND S03EO37 tiles which extend north and south of Mt. Kilamanjaro. The ASTER data is from the US and Japan Science Teams and the SRTM data is from NASA. We used a [python script](srtmNUMtoSAGA.py) provided by our professor, Dr. Joseph Holler, in order to conver the NUM data into usable grids. 
 
-First, we mosaicked the DEMS and projected them into the correct coordinate system (UTM Zone 37) from the WGS projection. I then applied a hillshade with azimuth 315 and height 45 in order to better visualize the terrain.
+## Making the DEM 
+
+I conducted this analyses on SAGA open source GIS. First, I mosaicked the DEMS and projected them into the correct coordinate system (UTM Zone 37) from the WGS projection. I then applied a hillshade with azimuth 315 and height 45 in order to better visualize the terrain.
 
 ![Analytical Hillshade](hillshade.PNG)
 
