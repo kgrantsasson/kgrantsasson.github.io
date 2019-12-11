@@ -35,5 +35,12 @@ In order to reproduce this complicated first step, we first downloaded the DHS s
 
 ![MyTA](adaptivecapacity.png) 
 
+### Sensitivity
+
+We were unable to reproduce Malcolm et al.'s sensitivity analyses because we cannot access the data from FewsNET 2005. Our final analyses is therefore only 80% of Malcolm's, with the remaining 20% being a sensitivity analyses. 
+
+### Exposure 
+
+For this part of the analyses we downladed the global data layer from the UNEP website and loaded the layers into POSTGIS with a raster2pgsql command-line program. 
 
 
