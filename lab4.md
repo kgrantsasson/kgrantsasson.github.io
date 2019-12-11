@@ -1,4 +1,12 @@
+# Global Digital Elevation Models (DEM) and Assessing Error Proagation and Uncertainty 
+
+## Stream Channel Analysis of Mount Kilimanjaro, Tanzania 
+
 This week, we expanded our work in lab 3 by using a cammand prompt batch process to complete the hydrological workflow for Kilamanjaro, Tanzania. This week however, we used both ASTER and SRTM data and compared the number (error) files in order to determine which data collection system is more accurate for particular landscapes.
+
+## Data Acquisition
+
+We accessed DEM and NUM files from Earth Data. I downloaded the SO4E037 AND S03EO37 tiles which extend north and south of Mt. Kilamanjaro. The ASTER data is from the US and Japan Science Teams and the SRTM data is from NASA. We used a [python script]
 
 First, we mosaicked the DEMS and projected them into the correct coordinate system (UTM Zone 37) from the WGS projection. I then applied a hillshade with azimuth 315 and height 45 in order to better visualize the terrain.
 
@@ -8,7 +16,7 @@ Next I established where the sinks are in the terrain so that they could be fill
 
 ![sink route](sinkroute.PNG) 
 
-Finally, I ran flow accumualation tool. As you can see below, darker areas are areas with greater flow accumulation. Once this value reaches a certain threshold, we can determine that there is a stream present.
+Finally, I ran flow accumualation tool. As you can see below, darker areas have greater flow accumulation. Once this value reaches a certain threshold, we can determine that there is a stream present.
 
 ![Flow Accumulation](flowaccumulation.PNG) 
 
@@ -25,9 +33,6 @@ Below is the output for the differences in the ASTER and SRTM Digital Elevation 
 [Here](ASTERDEM.bat) is my ASTER batch process.
 [Here](SRTMDEMproj.bat) is my SRTM batch process. 
 
-Click [here](ASTGTMV003_SO3E037.zip) and [Here](ASTGTMV003_SO4E037.zip) to access the ASTER DEM and NUM tiles I used.
-
-Click [here](
 
 Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC
 
