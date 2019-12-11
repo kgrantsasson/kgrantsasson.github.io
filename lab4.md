@@ -18,9 +18,11 @@ Next I established where the sinks are in the terrain so that they could be fill
 
 ![sink route](sinkroute.PNG) 
 
-Finally, I ran flow accumualation tool. As you can see below, darker areas have greater flow accumulation. Once this value reaches a certain threshold, we can determine that there is a stream present.
+I then ran a flow accumualation tool. As you can see below, darker areas have greater flow accumulation. Once this value reaches a certain threshold, we can determine that there is a stream present.
 
 ![Flow Accumulation](flowaccumulation.PNG) 
+
+Finally, I ran a channel network and overlaid it onto my hillshade in order to see how the streams lie on the topographic landscape. 
 
 The batch process method is helpful because one could theorhetically run the model without even having a gis open on their computer. Additionally, the user can simply switch out inputs for different data sources or geographical regions. Running the number files and then subtracting them from each other is an important step in interrogating your data sources and rooting out error propogation. These programs (ASTER and STRM) work by collecting data from particular locations at varying angles and positions. Some areas are harder to capture than others, which forces the collector to source data from other places or interpolate data from nearby areas. 
 
