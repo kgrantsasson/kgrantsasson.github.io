@@ -54,7 +54,7 @@ First, I converted the counties shapefile into centroid points and used the Kene
 
 ![Heatmap](heatdensitymap.png) 
 
-We can see in this map that the areas with higher Dorian-related twitter activity correspond with the regions most impacted by the hurricane.
+We can see in this map that the areas with higher Dorian-related twitter activity correspond with the regions most impacted by the hurricane, yet there are smaller hotspots in Alabama, where Trump claimed the Hurricane would hit.
 
 Next, I wanted to created a spatial culter map of tweets related to Dorian. I opened GeoDa cand created a spatial wights matrix using the "Weights Manager" tool. Then, I created a local G* cluster map. 
 
@@ -62,22 +62,8 @@ Next, I wanted to created a spatial culter map of tweets related to Dorian. I op
 
 Here, we see again that the areas with significantly high twitter activity correlate to the regions most affected by the hurricane. Alabama, the state that was supposedly supposed to also be hit, does not appear to have a higher than average rate of activity.
 
+## Discussion
 
+As you can see in the kernel density map and the word association graphic, while Trump's sharpiegate did seem to spike some twitter activity, the main drivers were those places actually hit by the hurricane. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In this age of big data, spatial scientists have unprecendented access to information on anything from public sentiment, to natural hazard vulnerability and response. Being able to access this huge wealth of information can be overwhelming and because if its relative novelty, the standards for big data mining have not be fully developed or widely accepted.
+In this age of big data, spatial scientists have unprecendented access to information on anything from public sentiment, to natural hazard vulnerability and response to natural disasters. Being able to access this huge wealth of information can be overwhelming and because if its relative novelty, the standards for big data mining have not be fully developed or widely accepted. There remain many ethical questions, such as how to handle personal information that people post during times of crises. Another challenge of mining twitter data for research purposes is that it seems to always inductive and exploratory rather than driven by hypothesis, based on numerous case studies that we read for class. This means that a research can almost always publish a positive result because there was no real, provable question to begin with. Especially with such a large volume of data, the researcher can come to nearly any conclusion while avoiding the error-mitigating processes of the scientific method. 
