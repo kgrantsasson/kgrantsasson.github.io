@@ -6,7 +6,8 @@ For our final lab of the semester, we learned how to access Twitter data through
 
 ### Data Sources
 
-1. Twitter data, accessed using 
+1. Twitter data, accessed using this [R script](twitterForLab.r) provided by Prof. Holler. Make sure to sign up for a Developer Account and [apply](https://developer.twitter.com/en/apply-for-access) for a Twitter API 
+2. 
 
 
 
