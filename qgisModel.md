@@ -19,7 +19,7 @@ Below are three metrics: Distance from the CBD, Direction from the CBD, and Medi
 Below is a screengrab of my model
 ![Model](modelpic.PNG) 
 
-[Model]
+
 
 This [scatterplot](Scatter_Medgrossre.html)  demonstrates the distance from Chicago's Central Business Distract vs Median Gross Rent.
 
