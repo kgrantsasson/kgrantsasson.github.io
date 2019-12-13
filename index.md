@@ -13,3 +13,5 @@
 [Reproducibility Lab: Vulnerability in Malawi](Malawi.md) 
 
 [Tweet Patterns During Hurricane Dorian](twitter.md) 
+
+[Final Project: Georeferencing Historical Lincoln, Vermont](final.md) 
