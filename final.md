@@ -38,4 +38,6 @@ Here are my GCPs. As you can see, the Residual number is relatively low, indicat
 
 ![GCPs](GCPs.PNG) 
 
-You can download my GCPs as points [here](
+You can download my GCPs as points [here](historicallincolnjpg_modified.tif.points) 
+
+
