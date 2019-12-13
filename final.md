@@ -47,7 +47,7 @@ Under Transformation Settings, I selected "Polynomial 2" as my Transformation Ty
 
 In order to check that the georeferencing worked I laid the town boundaries over my newly georeferenced historical to see if the boundaries lined up (see below). The bright pink lines are the town boundaries from VCGI. They line up!
 
-![lincolnboundary](lincolnboundary.shp) 
+![lincolnboundary](lincolnboundary.PNG) 
 
 Notice how the historical boundaries extend beyond the current town boundaries. I figure this is just a result of changing political boundaries between 1855 and now and do not believe that it indicates an error in the georeferencing. 
 
