@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/RiversfromHistoricalMap_2.js"></script>
+        <script src="data/VCGIRivers_3.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:19, minZoom:1
+        }).fitBounds([[44.012303751259275,-73.16108723359568],[44.193017567565114,-72.78148266080126]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+            map.setMaxBounds(map.getBounds());
+        }
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            opacity: 1.0,
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            minZoom: 1,
+            maxZoom: 19,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OSMStandard_0;
+        map.addLayer(layer_OSMStandard_0);
+        var img_HistoricalLincoln_1 = 'data/HistoricalLincoln_1.png';
+        var img_bounds_HistoricalLincoln_1 = [[44.0192307763712,-73.1683403155252],[44.1788172584054,-72.87992711118989]];
+        var layer_HistoricalLincoln_1 = new L.imageOverlay(img_HistoricalLincoln_1, img_bounds_HistoricalLincoln_1);
+        bounds_group.addLayer(layer_HistoricalLincoln_1);
+        map.addLayer(layer_HistoricalLincoln_1);
+        function pop_RiversfromHistoricalMap_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['id'] !== null ? Autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_RiversfromHistoricalMap_2_0() {
+            return {
+                pane: 'pane_RiversfromHistoricalMap_2',
+                opacity: 1,
+                color: 'rgba(101,183,199,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.75,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_RiversfromHistoricalMap_2');
+        map.getPane('pane_RiversfromHistoricalMap_2').style.zIndex = 402;
+        map.getPane('pane_RiversfromHistoricalMap_2').style['mix-blend-mode'] = 'normal';
+        var layer_RiversfromHistoricalMap_2 = new L.geoJson(json_RiversfromHistoricalMap_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_RiversfromHistoricalMap_2',
+            layerName: 'layer_RiversfromHistoricalMap_2',
+            pane: 'pane_RiversfromHistoricalMap_2',
+            onEachFeature: pop_RiversfromHistoricalMap_2,
+            style: style_RiversfromHistoricalMap_2_0,
+        });
+        bounds_group.addLayer(layer_RiversfromHistoricalMap_2);
+        map.addLayer(layer_RiversfromHistoricalMap_2);
+        function pop_VCGIRivers_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GNIS_NAME'] !== null ? Autolinker.link(feature.properties['GNIS_NAME'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_VCGIRivers_3_0() {
+            return {
+                pane: 'pane_VCGIRivers_3',
+                opacity: 1,
+                color: 'rgba(56,86,139,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 1.75,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_VCGIRivers_3');
+        map.getPane('pane_VCGIRivers_3').style.zIndex = 403;
+        map.getPane('pane_VCGIRivers_3').style['mix-blend-mode'] = 'normal';
+        var layer_VCGIRivers_3 = new L.geoJson(json_VCGIRivers_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_VCGIRivers_3',
+            layerName: 'layer_VCGIRivers_3',
+            pane: 'pane_VCGIRivers_3',
+            onEachFeature: pop_VCGIRivers_3,
+            style: style_VCGIRivers_3_0,
+        });
+        bounds_group.addLayer(layer_VCGIRivers_3);
+        map.addLayer(layer_VCGIRivers_3);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'<img src="legend/VCGIRivers_3.png" /> VCGI Rivers': layer_VCGIRivers_3,'<img src="legend/RiversfromHistoricalMap_2.png" /> Rivers from Historical Map': layer_RiversfromHistoricalMap_2,"Historical Lincoln": layer_HistoricalLincoln_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        L.ImageOverlay.include({
+            getBounds: function () {
+                return this._bounds;
+            }
+        });
+        </script>
+    </body>
+</html>
