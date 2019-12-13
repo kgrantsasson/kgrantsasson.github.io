@@ -12,6 +12,8 @@ For my final project, I georeferenced a historical map of Lincoln, Vermont and d
 
 3. [Town boundaries](VT_Data_E911specific_Town_Boundaries.shp) from VCGI under the title "VT_Data_E911specific_Town_Boundaries.shp)
 
+4. OSM Standard from Open Street Maps. 
+
 ### Platforms and Plugins
 
 * QGIS version 3.8.1
@@ -27,6 +29,7 @@ All work was done in Stateplaine VT 1983 EPSG: 103172.
 First, I had to choose an historical map to reference. I knew I wanted to digitize rivers in historical maps so I chose a town with plenty of rivers running through it and uploaded this image as a raster .tif into QGIS. Below is the image I settled on. 
 
 ![historical lincoln](historicallincolnjpg.jpg) 
+Lincoln, Vermont. 1855. 
 
 I knew that I would have to have a geolocated shapefile of the town to which I could match the historical map, so I downloaded Vermont's town boundaries from VGI. I could now pull the coordinates from this shapefile into the historical map.
 
@@ -39,5 +42,32 @@ Here are my GCPs. As you can see, the Residual number is relatively low, indicat
 ![GCPs](GCPs.PNG) 
 
 You can download my GCPs as points [here](historicallincolnjpg_modified.tif.points) 
+
+In order to check that the georeferencing worked I laid the town boundaries over my newly georeferenced historical to see if the boundaries lined up (see below). The bright pink lines are the town boundaries from VCGI. They line up!
+
+![lincolnboundary](lincolnboundary.PNG) 
+
+Notice how the historical boundaries extend beyond the current town boundaries. I figure this is just a result of changing political boundaries between 1855 and now and do not believe that it indicates an error in the georeferencing. 
+
+### Digitizing Rivers
+
+I wanted to digitize the rivers of the historical map in order to compare them to current river data in Lincoln. I added a vector layer "rivers" and began drawing lines over the rivers with "Add Line Feature". Make sure to toggle editing beforehand. I added a different line feature for every tributary so that the line segments remained small. This is a long process and takes a lot of patience, so limiting the time it takes to redo a line segment is paramount. Check out my progress in the image below.
+
+![line features](digitizingrivers.PNG)
+
+There were a few spots where the ink for the historical map has worn or perhaps was not drawn thick enough and I had to estimate the route of the river. 
+
+![river gap](missingsection.PNG) 
+
+Finally, I had completed the river vector layer for the historical map. You can downloaded this dataset [here](rivers.shp).
+
+### Comparing Current River Data
+
+I downloaded the current river data set for lincoln from VCGI and uploaded it to QGIS. This dataset contains all the rivers and tributaries in Vermont, but I only needed the rivers in Lincoln, so I performed an intersection with the VCGI rivers as the input layer and the town boundary for Lincoln as the overlay layer. Before doing that I extracted the Lincoln town boundary from the Vermont town boundary layer using Select by Expression ("'TOWNNAME' = 'LINCOLN'").
+
+The rivers that I digitized from the historical map and the current river data set do not match. At first, I thought maybe the current river data set was incorrect so I cross-referenced it with the rivers on the OSM Standard basemap from Open Street Maps. Unfortunately for me, the VCGI rivers are of course correct. Interestingly, it seems as those the two datasets are offset from each other. Notice the circled areas in the image below. 
+
+
+
 
 
