@@ -40,7 +40,7 @@ After finishing our spatial analyses in Q we worked the interacting mapping tool
 
 Our map identifies the subwards that have the greatest proportion of their area in a floodplain. We used this indicator to determine which subwards are most at risk for flooding. According to our analyses, 
 
-[Click Here](NEWdsmmap/index.html) to access my leaflet map of Dar es Salaam subwards ranked by the percent of subward area in a floodplain. I've also included a point layer of storm drains for reference. 
+[Click Here](/NEWdsmmap/index.html) to access my leaflet map of Dar es Salaam subwards ranked by the percent of subward area in a floodplain. I've also included a point layer of storm drains for reference. 
 
 [Click Here](lab06.sql) to access the sql code I used to build my map. 
 
