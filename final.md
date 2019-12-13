@@ -8,6 +8,6 @@ For my final project, I georeferenced a historical map of Lincoln, Vermont and d
 
 1. Historical [map](historicallincolnjpg.jpg) of Lincoln from the [Middlebury College Map Collection](https://archive.org/details/middleburycollegemaps)
 
-2. VT Hydrology Dataset from [Vermont Center for Geographic Information](http://geodata.vermont.gov/). Click [here] to access this dataset. 
+2. VT Hydrology Dataset from [Vermont Center for Geographic Information](http://geodata.vermont.gov/). Click [here]( to access this dataset. 
 
 ![historical lincoln](historicallincolnjpg.jpg) 
